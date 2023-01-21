@@ -1,0 +1,220 @@
+html,
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.image1{
+    padding:0px 938px 0px 170px ;
+}
+.head1{
+    padding: 5px 0px;
+    background-color: #1B588E;
+    font-size: 1.9rem;
+    text-transform: capitalize;
+    font-weight: 200;
+    text-align: center;
+    justify-content: center;
+    color: white;
+
+}
+.red1{
+    background-color: #CF3F3A;
+    height: 12px;
+}
+.new{
+    background-color: rgba(90,188,210,.3);
+    padding: 15px;
+    margin: 0px 65px;
+    
+}
+.new .new1{
+    text-decoration: none;
+    padding: 0px 10px 0px 10px;
+    color: #ffffff;
+    font-size:40px;
+    color:red
+}
+.new .new2{
+    color: #CF3F3A;
+    text-decoration: none;
+    padding: 10px 10px 15px 10px;
+    font-size: 1.1rem;
+}
+.container{
+    justify-content: space-between;
+    display: flex;
+    height: 370px;
+    margin: 0px 60px 5px 60px;
+}
+.container .div1{
+    width: 49%;
+    background-color: rgba(90,188,210,.2);
+    border-radius: 12px;
+}
+.container .div2{
+    width: 49%;
+    background-color: #E33A33;
+}
+.container .div1 .div11{
+    background-color: #1B588E;
+    color: white;
+    padding: 8px 20px;
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+.container .div1 .red1{
+    height: 7px;
+}
+.container .div1 .head-1{
+    color: rgba(0,0,139,.6);
+    padding: 10px 30px;
+}
+.container .div1 .head-1 .fa{
+    font-size: 10px;
+    color: red;
+}
+.container .div1 .head-2{
+    background-color: #ffffff;
+    padding: 15px;
+    margin: 6px 25px;
+    border-radius: 8px;
+}
+.container .div1 .head-3{
+    display: flex;
+}
+.container .div1 .head-31{
+    background-color: #CF3F3A;
+    margin-left: 28px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.container .div1 .head-32{
+    background-color: #3375AC;
+    margin-left: 6px;
+    padding: 10px 20px;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+}
+.container .div1 .head-4{
+    padding: 0px 30px;
+}
+.container .div1 .head-4 strong{
+    color: deepskyblue;
+}
+.container .div2 .div2-1{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 1.7rem;
+    text-align: center;
+}
+.container .div2 .div2-2{
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1.2rem;
+/*    text-align: center;*/
+    padding: 7px 190px;
+}
+.container .div2 .div2-3{
+    text-transform: capitalize;
+    color: white;
+    background-color: #215692;
+    margin: 0px 200px;
+    padding: 10px;
+    text-align: center;
+}
+.lhead{
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: 400px;
+    color: #E33A33;
+    text-align: center;
+    background-color: #FDF1CB;
+    height: 12px;
+    margin: 1px 50px;
+    padding: 12px 0px 18px 0px;
+}
+.rhead{
+    font-size: .9rem;
+    text-align: center;
+    background-color: #FDF1CB;
+    height: 12px;
+    margin: 1px 50px;
+    padding: 12px 25px 25px 25px;
+}
+.rheadr{
+    font-size: .9rem;
+    text-align: center;
+    background-color: #FDF1CB;
+    height: 12px;
+    margin: 1px 50px;
+    padding: 12px 25px 20px 25px;
+}
+.rheadr a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #E33A33;
+    font-size: .9rem;
+    text-align: center;
+    background-color: #FDF1CB;
+    padding: 12px 25px 10px 25px;
+}
+.rheadr a:hover{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: skyblue;
+    font-size: .9rem;
+    text-align: center;
+    background-color: #FDF1CB;
+    padding: 12px 25px 10px 25px;
+}
+.warning{
+    text-decoration: none;
+    color: #E33A33;
+    font-size: .9rem;
+    background-color: #F4FCFF;
+    padding: 12px 25px 10px 25px;
+    margin: 0px 50px;
+    border-radius: 2px;
+}
+.warning .lhead{
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 400px;
+    color: #E33A33;
+    background-color: #F4FCFF;
+    height: 12px;
+}
+.warning .lhead .fa{
+    text-transform: capitalize;
+    font-size: 1.7rem;
+    font-weight: 400px;
+    color: #E33A33;
+    height: 12px;
+}
+footer{
+    padding: 0px 40px;
+    text-align: center;
+    height: 40px;
+    background-color: #195D99;
+    display: flex;
+    justify-content: space-between;
+}
+footer .l{
+    color: white;
+    font-size: .9rem;
+/*    margin-left:40px;*/
+    padding: 10px 0px 0px 0px;
+}
+footer .r{
+    margin-top: 10px;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+}

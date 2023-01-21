@@ -1,0 +1,126 @@
+html,
+body{
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    background: #1B588E;
+    height: 135px;
+    align-items: center;
+    display: flex;
+}
+header .left{
+/*    width: 35%;*/
+    padding-left: 160px; 
+    margin-bottom: 30px;
+}
+header .right{
+    font-size: 2rem;
+    text-transform: capitalize;
+    font-weight: 300;
+    padding-left: 130px;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+.red1{
+    background-color: #CF3F3A;
+    height: 12px;
+}
+.container{
+    box-sizing: border-box;
+    box-shadow: 0px 0px 5px black;
+    margin: 8px 165px 30px 165px;
+    height: 720px;
+}
+.container .tips{
+    height: 40px;
+    background-color: #1B588E;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 300;
+    font-size: 1.65rem;
+    padding: 10px 0px 0px 16px;
+}
+.container .red1{
+    background-color: #CF3F3A;
+    height: 6px;
+    margin-bottom: 6px;
+}
+.container .hindi a{
+    text-decoration: none;
+    background-color: #1B588E;
+    color: white;
+    font-family: sans-serif;
+    font-size: .8rem;
+    font-weight: 400;
+    margin: 111px 10px 10px 890px;
+    padding: 8px 20px 8px 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+.container .head2{
+    font-weight: 300;
+    font-size: 1.3rem;
+/*    color: darkblue;*/
+    color: rgba(0,0,139,.7);
+    padding: 12px 0px 0px 15px;
+}
+.container .fa{
+    height: 10px;
+    font-weight: 200;
+    color: blue;
+    padding: 8px 10px;
+    margin: 10px 0px 0px 10px;
+}
+.container .f1{
+    font-family:"Verdana",monospace;
+    font-stretch:extra-expanded;
+    font-weight: 50;
+    font-size: .9rem;
+    text-align:justify-all;
+    padding: 0px 20px;
+}
+.container a{
+    text-decoration: none;
+    color: white;
+    font-weight: 300;
+    font-size: 1.2rem;
+    background-color: #D63545;
+    padding: 10px 10px;
+    margin: 10px 420px;
+}
+hr{
+    margin: 10px 12px;
+}
+.container .note{
+    text-align: center;
+    font-size: .9rem;
+    font-weight: 300;
+    color: darkslateblue;
+    background-color: #CFE5FE;
+    margin: 15px 15px 10px 15px;
+    padding: 8px 10px 12px 10px;
+    border-radius: 10px;
+}
+footer{
+    padding: 0px 40px;
+    text-align: center;
+    height: 40px;
+    background-color: #195D99;
+    display: flex;
+    justify-content: space-between;
+}
+footer .l{
+    color: white;
+    font-size: .9rem;
+/*    margin-left:40px;*/
+    padding: 10px 0px 0px 0px;
+}
+footer .r{
+    margin-top: 10px;
+    color: white;
+    font-size: .9rem;
+    text-align: center;
+}
